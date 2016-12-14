@@ -145,7 +145,7 @@ public class DhRegistration
 	   // read system environment variables to obtain host:port endpoint
 	   // for the notification-dreamhome service
 	   // First, default to using the public external endpoint
-	   String host = "notification-dreamhome.ose.cpo.com";
+	   String host = "http://dhnotification-env.us-west-2.elasticbeanstalk.com/";
 	   String port = "80";
 	   
 	   // Next, try fetching the more efficient internal end point
